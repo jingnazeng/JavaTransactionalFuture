@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="test"/>
 	<classpathentry kind="lib" path="dist/contlib.jar"/>
 	<classpathentry kind="lib" path="jvstmdist/jvstm.jar"/>
 	<classpathentry kind="lib" path="libs/advice-1.5.jar"/>
@@ -21,5 +22,6 @@
 	<classpathentry kind="lib" path="libs/openjdk-continuation-vm2013-linux-amd64/lib/security/local_policy.jar"/>
 	<classpathentry kind="lib" path="libs/openjdk-continuation-vm2013-linux-amd64/lib/security/US_export_policy.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="output" path="src"/>
 </classpath>
